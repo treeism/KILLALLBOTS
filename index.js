@@ -1,5 +1,6 @@
-const { Client, Events, GatewayIntentBits } = require('discord.js');
-const { DISCORD_TOKEN, ROLE_ID } = require('./config.json');
+import { Client, Events, GatewayIntentBits } from 'discord.js';
+import { DISCORD_TOKEN, ROLE_ID } from './config.json';
+
 const client = new Client({ 
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers] 
 })
