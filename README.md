@@ -8,7 +8,7 @@
 
 To begin development and testing locally, please follow these steps in your terminal of choice:
 
-1. Clone the repo by running `git clone https://github.com/treeism/KILLALLBOTS.git`.
+1. Clone the repo by running `git clone https://github.com/SolyncSoftware/KILLALLBOTS.git`.
 2. Go inside the newly cloned folder (`cd KILLALLBOTS`).
 3. Run `bun install` to install the packages.
 4. Great! Now create and configure a new file named `.env` on the root of the project with your Discord application and roles (please check .ENV configuration template section).
