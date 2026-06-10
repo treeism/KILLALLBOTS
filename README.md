@@ -19,11 +19,6 @@ To begin development and testing locally, please follow these steps in your term
 DISCORD_TOKEN=
 ROLE_ID=
 ```
-here's a reference, for more information about .env and how it works:
-https://upsun.com/blog/what-is-env-file/
-
-how to use `.env` files in bun.js:
-https://bun.com/docs/runtime/environment-variables
 
 ## Goals
 
@@ -36,3 +31,5 @@ https://bun.com/docs/runtime/environment-variables
 - [Bun Documentation](https://bun.sh/docs)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
 - [Solync Community Discord](https://discord.com/invite/nUeRyRtDYC)
+- [More information about .env files](https://upsun.com/blog/what-is-env-file/)
+- [How to use and access enviroment variables in Bun](https://bun.com/docs/runtime/environment-variables)
