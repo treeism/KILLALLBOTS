@@ -1,5 +1,5 @@
 import { Client, Events, GatewayIntentBits } from 'discord.js';
-import { DISCORD_TOKEN, ROLE_ID } from './config.json';
+import { ROLE_ID } from './config.json';
 
 const client = new Client({ 
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers] 
@@ -29,4 +29,4 @@ client.on(Events.GuildMemberAdd, member => {
     }
 });
 
-client.login(DISCORD_TOKEN);
+client.login(process.env.DISCORD_TOKEN);
