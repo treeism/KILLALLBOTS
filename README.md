@@ -19,6 +19,11 @@ To begin development and testing locally, please follow these steps in your term
 DISCORD_TOKEN=
 ROLE_ID=
 ```
+here's a reference, for more information about .env and how it works:
+https://upsun.com/blog/what-is-env-file/
+
+how to use `.env` files in bun.js:
+https://bun.com/docs/runtime/environment-variables
 
 ## Goals
 
